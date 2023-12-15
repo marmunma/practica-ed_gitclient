@@ -6,9 +6,13 @@ package appgitclient;
 
 /**
  *
- * @author marmuñma
+ * @author marmuÃ±ma
  */
 public class GitClient {
+    public String toString(){
+   return "GitClient(" + "cliente=" + cliente + ", version" + version + ", sistemOper" + sistemOper + ", licencia=" + licencia + ')';
+        
+    }
     private String cliente;
     private String version;
     private String sistemOper;
